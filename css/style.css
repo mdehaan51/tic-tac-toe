@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+#startScreen{
+  height: 100vw;
+  position: relative;
+  background-color: grey;
+  z-index: 1;
+  opacity: 1;
+}
+
+#title{
+  text-align: center;
+  font-size: 72px;
+  margin: 0;
+  padding-top: 20%;
+}
+
+#titleTag{
+  text-align: center;
+  font-size: 35px;
+}
+#pieceSelection{
+  text-align: center;
+}
+.btn{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.btn:hover{
+  background-color: lightgrey;
+  opacity: 90%;
+  cursor: pointer;
+}
+
+.borderLeft{
+  border-left: 5px solid #F3F2F2;
+}
+.borderBottom{
+  border-bottom: 5px solid #F3F2F2;
+}
+
+
+#gamecontainer{
+  margin: 100px auto auto auto;
+  width: 70%;
+  height: 70vh;
+  position: relative;
+  display: none;
+}
+#gameFrame{
+  background-color: black;
+  border: 1px solid black;
+  position: relative;
+  margin: auto auto auto auto;
+  width: 720px;
+  height: 700px;
+}
+#playingSurface{ 
+  background-size: 650px 650px;
+  position: absolute;
+  margin: 25px 25px 25px 25px;
+  width: 650px;
+  height: 650px;
+  text-align: center;
+}
+.selectionSquare{
+  font-size: 100px;
+  text-align: center;
+  height: 200px;
+  background-color: #3B653D;
+  font-family: 'Indie Flower';
+  color: #F3F2F2;
+  vertical-align: middle;
+  padding: 15px 10px 15px 10px;
+}
+
+.selectionSquare:hover{
+  opacity: 90%;
+  cursor: pointer;
+  background-colorL: lightgrey
+}
+
+.row{
+  margin-left: 5px;
+}
+
+#resetButton{
+  margin-top: 15px;
+}
+  

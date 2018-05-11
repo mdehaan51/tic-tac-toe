@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe Game - Split</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id="startScreen">
+  <h1 id="title">Tic-Tac-Toe</h1>
+  <p id="titleTag">Select your piece:</p>
+  <div id="pieceSelection">
+    <button type="button" class="btn" onclick="playGame('X')">X</button>
+    <button type="button" class="btn" onclick="playGame('O')">O</button>
+  </div>
+</div>
+
+<div id="gamecontainer">
+  <div id="gameFrame">
+    <div id="playingSurface">
+      <div class="row">
+        <div id="spot1" class="selectionSquare col-4 borderBottom"></div>
+        <div id="spot2" class="selectionSquare  col-4 borderLeft borderBottom"></div>
+        <div id="spot3" class="selectionSquare  col-4 borderLeft borderBottom"></div>
+      </div>
+      <div class="row">
+        <div id="spot4" class="selectionSquare  col-4 borderBottom"></div>
+        <div id="spot5" class="selectionSquare  col-4 borderLeft borderBottom"></div>
+        <div id="spot6" class="selectionSquare  col-4 borderLeft borderBottom"></div>
+      </div>
+      <div class="row">
+        <div id="spot7" class="selectionSquare  col-4 "></div>
+        <div id="spot8" class="selectionSquare  col-4 borderLeft "></div>
+        <div id="spot9" class="selectionSquare  col-4 borderLeft"> </div>
+      </div>
+      <button id="resetButton" type="button" class="btn" onclick="resetFunction()">Start Over?</button>
+    </div>
+
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
